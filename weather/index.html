@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="input">
+        <div class="input-ctn">
+            <input type="text" placeholder="Search cities..." id="input" onkeyup="getSearchTerm()">
+            <div class="result" id="result">
+                <!--<p class='text'>london <span>hello</span></p>
+                <p class='text'>london</p>
+                <p class='text'>london</p>-->
+            </div>
+        </div>
+        <!--<button id="inputButton">Search</button>-->
+    </div>
+    <div class="main-ctn">
+        <div class="top">
+            <div class="img-ctn" id="icon">
+                <!--<img src="img/rain.jpg" alt="rain">-->
+            </div>
+            <div class="weather-det">
+                <p class="first"  id="first"></p>
+                <p class="second" id="second"></p>
+                <p class="second" id="third"></p>
+                <p class="second" id="fourth"></p>
+                <p class="second" id="fifth"></p>
+            </div>
+        </div>
+        <div class="bottom" id="bottom">
+            <!--<div class="weather-card">
+                <div class="top-two" id="firstIcon"></div>
+                <div class="bottom-two">
+                    <p class="date" id="firstDate"></p>
+                    <p class="condition" id="firstCondition"></p>
+                    <p class="temperature" id="firstTemp"></p>
+                    <p class="wind" id="firstWind">Wind: Hello</p>
+                    <p class="humidity" id="firstHumidity">Humidity: Hello</p>
+                </div>
+            </div>-->
+        </div>
+    </div>
+</body>
+</html>
